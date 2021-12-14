@@ -25,7 +25,7 @@ Given a list of integers nums and an integer target, return the sum of the large
 
 **Example 1**
 
-Input/
+Input\
 `nums = [5, 1, 2, 3]`\
 `target = 4`
 
