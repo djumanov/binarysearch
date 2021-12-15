@@ -194,12 +194,12 @@ Return the number of intervals that are intersecting at `point`.
 **Example 1**
 
 Input\
-```intervals = [
+`intervals = [
     [1, 5],
     [3, 9],
     [4, 8],
     [10, 13]
-]```
+]`
 `point = 4`
 
 Output\
@@ -207,3 +207,17 @@ Output\
 
 Explanation\
 At time `4`, there are `3` intervals that are intersecting: `[1, 5], [3, 9], [4, 8]`
+
+### 10. Reverse Words
+Given a string `s` of words delimited by spaces, reverse the order of words.
+
+**Constraints**
+`n ≤ 100,000` where `n` is the length of `s`
+
+**Example 1**
+
+Input\
+`sentence = "hello there my friend"`
+
+Output\
+`"friend my there hello"`
