@@ -64,3 +64,34 @@ Output\
 
 Explanation\
 The Collatz sequence is: `[11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1]` and its length is `15`.
+
+
+### 4. First Fit Room
+You are given a list of integers `rooms` and an integer `target`. Return the first integer in `rooms` that's `target` or larger. If there is no solution, return `-1`.
+
+**Constraints**\
+`0 ≤ n ≤ 100,000` where `n` is the length of `rooms`
+
+**Example 1**
+
+Input\
+`rooms = [15, 10, 30, 50, 25]`
+`target = 20`
+
+Output\
+`30`
+
+Explanation\
+`30` is the first room that's at least as large as `20`.
+
+**Example 2**
+
+Input\
+`rooms = [15, 10, 30, 50, 25]`
+`target = 51`
+
+Output\
+`-1`
+
+Explanation\
+There's no room that's at least `51`.
