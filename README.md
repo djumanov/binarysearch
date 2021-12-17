@@ -225,7 +225,7 @@ Output\
 ### 11. Length of a Linked List
 Given a singly linked list node, return its length. The linked list has fields next and val.
 
-**Constraints**
+**Constraints**\
 `n ≤ 100,000` where `n` is the number of nodes in `node`
 
 **Example 1**
@@ -249,3 +249,17 @@ Output\
 
 Explanation\
 This linked list has `2` nodes.
+
+### 12. Narcissistic Number
+Given an integer `n`, return whether it is equal to the sum of its own digits raised to the power of the number of digits.
+
+**Example 1**
+
+Input\
+`n = 153`
+
+Output\
+`True`
+
+Explanation\
+`153` = `1 ** 3` + `5 ** 3` + `3 ** 3`
